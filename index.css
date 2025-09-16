@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    background-color: hsla(0, 1%, 15%, 0.97);
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.box{
+    margin: 20px;
+}
+.clubName{
+    padding: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    border: hsla(0, 0%, 0%, 0.132);
+    border-radius:10px;
+    margin: 10px;
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: hsl(270, 74%, 47%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: hsl(271, 75%, 29%);
+}
+.card{
+    background: linear-gradient(to bottom right, rgb(220, 128, 248),rgb(134, 18, 167),rgb(77, 4, 195), rgb(21, 142, 229));
+    padding: 10px;
+    width: 90%;
+    min-height: 470px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.clubDisplay, .stadiumDisplay, .stadiumCapacityDisplay{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 3px;
+}
+#h1{
+    color: white;
+}
+.badgeDisplay{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
